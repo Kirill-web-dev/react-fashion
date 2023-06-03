@@ -1,0 +1,15 @@
+.section-brands {
+  background-color: $yellow;
+
+  .brands {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 58px 0;
+    li {
+      img {
+        mix-blend-mode: multiply;
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+@import "./base/reset";
+@import "./base/vars";
+@import "./components/all";
+
+body {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.5px;
+  .container {
+    max-width: 1780px;
+    margin: 0 auto;
+    padding: 0 30px;
+  }
+}

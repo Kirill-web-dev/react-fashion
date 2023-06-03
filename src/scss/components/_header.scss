@@ -1,0 +1,46 @@
+header {
+  padding: 46px 0 56px;
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 30px;
+
+    &__logo {
+      display: flex;
+      align-items: center;
+      column-gap: 13px;
+
+      span {
+        font-weight: 900;
+        font-size: 40px;
+        text-transform: uppercase;
+      }
+    }
+
+    &__navigate {
+      ul {
+        display: flex;
+        column-gap: 60px;
+
+        li {
+          a {
+            color: $textColor;
+            font-weight: 500;
+            font-size: 22px;
+          }
+
+          &:last-of-type {
+            a {
+              padding: 13px 26px;
+              border-radius: 7px;
+              color: #ffffff;
+              background-color: #000000;
+            }
+          }
+        }
+      }
+    }
+  }
+}
